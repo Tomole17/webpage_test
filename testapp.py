@@ -9,4 +9,4 @@ app.layout = html.Div("Hello from Dash!")
 
 # Run app on 0.0.0.0:10000 for Render compatibility
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=10000)
+    app.run(host="0.0.0.0", port=10000)
